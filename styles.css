@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+body{
+    background: linear-gradient(120deg, #5f57d1, #c065c0);
+    font-family: 'Lato', sans-serif;
+    min-height: 921px;
+    background-repeat: no-repeat;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    color: white;
+    font-size: 50px;
+}
+
+.add-new-task{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-task{
+    font-size: 35px;
+    width: 620px;
+    height: 73px;
+    background-color: #482F65;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    color: white;
+}
+
+.add-btn{
+    width: 104px;
+    height: 75px;
+    background-color: #5F9267;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+.to-do-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do-task p{
+    font-size: 35px;
+    width: 620px;
+    height: 73px;
+    background-color: #482F65;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    color: white;
+    /* visibility: hidden;
+    z-index: -10; */
+}
+.open-to-do-task p{
+    visibility: visible;
+    z-index: 10;
+}
+.delete-btn{
+    width: 104px;
+    height: 75px;
+    background-color: #B83268;
+    border: none;
+    color: white;
+    font-size: 30px;
+    /* visibility: hidden;
+    z-index: -10; */
+}
+
+.open-delete-btn{
+    visibility: visible;
+    z-index: 10;
+}
