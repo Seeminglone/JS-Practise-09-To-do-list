@@ -18,6 +18,11 @@ h4{
     font-size: 50px;
 }
 
+#test{
+    border: none;
+    outline: none;
+}
+
 .add-new-task{
     display: flex;
     flex-direction: row;
@@ -26,9 +31,9 @@ h4{
 }
 
 .new-task{
-    font-size: 35px;
-    width: 620px;
-    height: 73px;
+    font-size: 25px;
+    width: 800px;
+    height: 45px;
     background-color: #482F65;
     outline: none;
     border: none;
@@ -38,11 +43,11 @@ h4{
 
 .add-btn{
     width: 104px;
-    height: 75px;
+    height: 45px;
     background-color: #5F9267;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .to-do-task{
@@ -50,7 +55,8 @@ h4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    margin-top: 55px;
+    border-top: 2px solid white;
 }
 
 .task {
@@ -58,36 +64,75 @@ h4{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .to-do-task p{
-    font-size: 35px;
-    width: 620px;
-    height: 73px;
+    font-size: 25px;
+    width: 800px;
+    height: 45px;
     background-color: #482F65;
     outline: none;
     border: none;
     padding: 0px 10px;
     color: white;
-    /* visibility: hidden;
-    z-index: -10; */
-}
-.open-to-do-task p{
-    visibility: visible;
-    z-index: 10;
-}
+    resize: none;
+    display: flex;
+    align-items: center;
+ } 
+
 .delete-btn{
+    width: 23px;
+    height: 13px;
+    background-color: #A461C5;
+    border: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-all-btn{
     width: 104px;
-    height: 75px;
+    height: 45px;
     background-color: #B83268;
     border: none;
     color: white;
-    font-size: 30px;
-    /* visibility: hidden;
-    z-index: -10; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.open-delete-btn{
-    visibility: visible;
-    z-index: 10;
+.edit-btn{
+    width: 23px;
+    height: 13px;
+    background-color: #995FC6;
+    border: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-over-btn{
+    width: 23px;
+    height: 13px;
+    background-color: #9E60C6;
+    border: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-all-btn{
+    width: 100px;
+}
+
+.close-all-btn-container{
+    width: 100px;
 }
